@@ -17,7 +17,7 @@ if place:
         dates = [dict["dt_txt"] for dict in filtered_data]
         figure = px.line(x=dates, y=temperatures, labels={"x": "Date",
                                                           "y": "Temperature"})
-        st.plotly_chart(figure)
+        st.plotly_chart(igure)
 
     if option == 'Sky':
         images = {
